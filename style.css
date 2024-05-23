@@ -1,0 +1,365 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:800px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    header {
+        height: 28.68rem;
+        background-image: url(./img/Header\ Background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer {
+        background-color: #23272A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-content {
+        width: 757px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 2rem;
+    
+    }
+    
+    .header-content p {
+        text-align: center;
+        line-height: 21.79px;
+    }
+    
+    .imagine {
+        width: 313px;
+        height: 112px;
+        font-family: "Luckiest Guy";
+        font-weight: 400;
+        font-size: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .buttons {
+        width: 502px;
+        height: 44px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .windows {
+        width: 205px;
+        height: 44px;
+        border-radius: 28px;
+        background-color: #f6f6f6;
+        color: black;
+    }
+    
+    .navegador {
+        width: 281px;
+        height: 44px;
+        border-radius: 28px;
+        background-color: #23272A;
+        color: white;
+    }
+    
+    .caixa-01 {
+        height: 448px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img-01 {
+        width: 607px;
+        height: 394px;
+    }
+    
+    .text-01 {
+        width: 348px;
+        height: 394px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .text-01 h2 {
+        font-family: "Luckiest Guy";
+        font-size: 40px;
+    }
+    
+    .caixa-02 {
+        background-color: #f6f6f6;
+        height: 448px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .text-02 {
+        width: 351px;
+        height: 212px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .text-02 h2 {
+        font-family: "Luckiest Guy";
+        font-size: 40px;
+    }
+    
+    .img-02 {
+        width: 607px;
+        height: 394px;
+    }
+    
+    .caixa-03 {
+        height: 448px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .img-03 {
+        width: 607px;
+        height: 394px;
+    }
+    
+    .text-03 {
+        width: 351px;
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        gap: 1rem;
+    }
+    
+    .text-03 h2 {
+        font-family: "Luckiest Guy";
+        font-size: 40px;
+    }
+    
+    .caixa-maior {
+        background-color: #f6f6f6;
+        height: 744px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .text-04 {
+        width: 800px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .text-04 h2 {
+        font-family: "Luckiest Guy";
+        width: 608px;
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    
+    body {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 31.5rem 134.18rem 6.25rem;
+        grid-template-areas: 
+        "header"
+        "section"
+        "footer";
+    }
+    
+    header {
+        display: grid;
+        grid-area: "header";
+        background-image: url(./img/Header\ Background\ mobile.png);
+        background-size: auto;
+    }
+    
+    
+    
+    header p {
+        width: 23.81rem;
+    }
+    
+    section {
+        display: grid;
+        grid-area: "section";
+    }
+    
+    footer {
+        background-color: #23272A;
+        display: grid;
+        grid-area: "footer";
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .header-content {
+        width: 26.25rem;
+        height: 22.87rem;
+        position: absolute;
+        top: 4.313rem;
+        gap: 1.5rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.5rem;
+        text-wrap: wrap;
+    }
+    
+    .imagine {
+        width: 17.375rem;
+        height: 4rem;
+        font-family: "Luckiest Guy";
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    
+    .buttons {
+        width: 23.81rem;
+        height: 7.6rem;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .windows {
+        width: 23.81rem;
+        height: 3.3rem;
+        border-radius: 28px;
+        background-color: white;
+    }
+    
+    .navegador {
+        width: 23.81rem;
+        height: 3.3rem;
+        border-radius: 28px;
+        background-color: #23272A;
+        color: white;
+    }
+    
+    .caixa-01 {
+        height: 35.81rem;
+        padding: 2rem;
+    }
+    
+    .img-01 {
+        width: 23.69rem;
+        margin-bottom: 3rem;
+    }
+    
+    .img-01 img {
+        width: 23.69rem;
+    }
+    
+    .caixa-01 h2 {
+        width: 23.12rem;
+        margin-bottom: 3rem;
+        font-family: "Luckiest Guy";
+    }
+    
+    .caixa-02 {
+        background-color: #f6f6f6;
+        height: 31.68rem;
+        padding: 2rem;
+    }
+    
+    .img-02 {
+        width: 23.69rem;
+        margin-bottom: 3rem;
+    }
+    
+    .img-02 img {
+        width: 23.69rem;
+    }
+    
+    .caixa-02 h2 {
+        width: 23.69rem;
+        margin-bottom: 3rem;
+        font-family: "Luckiest Guy";
+    }
+    
+    .caixa-03 {
+        height: 31.68rem;
+        padding: 2rem;
+    }
+    
+    .img-03 {
+        width: 23.69rem;
+        margin-bottom: 3rem;
+    }
+    
+    .img-03 img {
+        width: 100%;
+    }
+    
+    .caixa-03 h2{
+        width: 23.69rem;
+        margin-bottom: 3rem;
+        font-family: "Luckiest Guy";
+    }
+    .caixa-maior {
+        background-color: #f6f6f6;
+        display: grid;
+        grid-area: "caixa-maior";
+        height: 35rem;
+        padding: 2rem;
+    }
+    
+    .caixa-maior h2 {
+        width: 23.69rem;
+        margin-bottom: 3rem;
+        font-family: "Luckiest Guy";
+    }
+    
+    .img-04 {
+        width: 23.69rem;
+    }
+}
